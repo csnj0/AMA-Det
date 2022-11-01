@@ -1,1 +1,3 @@
+# AMA-Det: Enhancing Shared Head of One-stage Object Detector with Adaptation, Merging and Alignment
+
 ## 🚀 Uploading in progress...
