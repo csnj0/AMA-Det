@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # AMA-Det: Enhancing Shared Head of One-stage Object Detector with Adaptation, Merging and Alignment [🔗 ](https://ieeexplore.ieee.org/document/9973305)
 
 ## Introduction
 
 *Feature adaptation(FA)* and *result alignment(RA)* are critical issues in one-stage object detection, since *FA* amends feature misalignment problem by adapting sampling points to semantically significant locations, and *RA* corrects result misalignment problem by estimating the localization quality. For *FA*, the aligned and consistent prediction of sampling points is important. Previous studies directly inherit cascaded “proposal-refine” philosophy from multi-stage detectors and predict sampling points by approximating their minimal external rectangle to ground-truth bounding boxes. This manner generates poorly aligned and consistent sampling points and induces irrelevant features aggregated. Moreover, their sampling points for classification are conventionally generated through the localization branch, without feeding the corresponding features of the classification branch. For *RA*, previous studies have verified the superiority of utilizing the predicted edge distribution to estimate localization quality; however, their directly regressed distribution is incompatible with the cascaded regression framework. To solve these problems, we firstly propose a *focused feature adaptation* method by softening the supervision of the proposal points. This method can predict sampling points focused above the assigned objects with excellent alignment and consistency. Subsequently, *inner-branch and* *cross-branch merging* were investigated to promote feature sharing from the classification branch. Finally, *cascaded distribution-guided result alignment* is advanced and verified to predict accurate localization quality. After integrating our proposed adaptation, merging, and alignment, we created AMA-Det with an enhanced shared head, which impressively reaches 43.9 mAP with ResNet50 as the backbone. AMA-Det also achieves a 54.5 mAP by multi-scale testing on MSCOCO test-dev and outperforms all existing CNN-based one-stage counterparts.
 
-![Graphical Abstract](./images/Graphical Abstract.jpg)
+![Graphical Abstract](https://github.com/csnj0/AMA-Det/blob/a969b40d398e57254e34a632626501c1e2d01249/images/Graphical%20Abstract.jpg)
 
 ## Installation
 
