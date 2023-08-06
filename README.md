@@ -65,13 +65,3 @@ If you use this toolbox or benchmark in your research, please cite this project.
 }
 ```
 
-=======
-# AMA-Det: Enhancing Shared Head of One-stage Object Detector with Adaptation, Merging and Alignment
-
-## 🚀 Uploading in progress...
->>>>>>> 6008168cfd9ab36221cd615b62baee6d48af87d5
-=======
-# AMA-Det: Enhancing Shared Head of One-stage Object Detector with Adaptation, Merging and Alignment
-
-## 🚀 Uploading in progress...
->>>>>>> 6008168cfd9ab36221cd615b62baee6d48af87d5
