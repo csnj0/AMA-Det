@@ -1,0 +1,5 @@
+# These must be installed before building mmdetection
+cython==0.29.12
+opencv-python-headless
+numpy
+pillow==8.3.2

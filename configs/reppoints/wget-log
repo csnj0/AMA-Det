@@ -1,0 +1,4 @@
+--2022-01-21 09:21:53--  https://drive.google.com/u/0/uc?export=download
+Resolving drive.google.com (drive.google.com)... 199.59.148.97, 2001::45ab:e02a
+Connecting to drive.google.com (drive.google.com)|199.59.148.97|:443... failed: Connection timed out.
+Connecting to drive.google.com (drive.google.com)|2001::45ab:e02a|:443... failed: Network is unreachable.
